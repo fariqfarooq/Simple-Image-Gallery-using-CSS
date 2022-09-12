@@ -1,0 +1,45 @@
+/* ---------------Element styles-------------------- */
+body{
+    background-image: url(https://media.istockphoto.com/photos/holograph-foil-background-pastel-color-paper-picture-id1328061752?b=1&k=20&m=1328061752&s=170667a&w=0&h=EmXp-x3ezFsZTkw9YjShB4CbsWFa26RJvZi2cSJzV_M=);
+   background-size: cover;
+   font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+
+h1{
+    width: 400px;
+    border-bottom: solid 5px;
+    border-right: solid 5px;
+    border-color: rgb(46, 72, 66);
+    text-align: center;
+    color: rgb(2, 44, 29);
+    font-size: xx-large;
+    
+}
+
+
+footer{
+    color: antiquewhite;
+    text-align: center;
+    margin: 10px;
+}
+
+img{
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    transition: all 1s;
+    
+}
+
+img:hover {
+    transform: scale(1.1)
+  }
+  /* ----------------------class styles----------------------- */
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline center;
+    justify-content: center;
+}
